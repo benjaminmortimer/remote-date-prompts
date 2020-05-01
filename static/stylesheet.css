@@ -2,6 +2,14 @@ body {
 	font-family: sans-serif;
 }
 
+h1 {
+	font-size: 32px;
+}
+
+p {
+	font-size: 20px;
+}
+
 .prompt-button {
 	border: 3px solid black;
 	display: inline-block;

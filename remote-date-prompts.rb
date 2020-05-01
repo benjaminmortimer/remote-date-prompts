@@ -53,6 +53,7 @@ end
 
 class ColourPicker
 	def initialize(colour_pairs)
+		@colour_pairs = colour_pairs
 		@colour_pair = colour_pairs.sample
 	end
 
@@ -62,6 +63,10 @@ class ColourPicker
 
 	def foreground
 		@colour_pair["text_colour"]
+	end
+
+	def new_pair
+		@colour_pair = @colour_pairs.sample
 	end
 end
 
@@ -76,11 +81,10 @@ get '/' do
 end
 
 get '/prompt' do 
-	colour_pair = colour_pairs.sample
+	colour_picker.new_pair
 	erb :prompt, :locals => {
 		:background_colour => colour_picker.background,
 		:text_colour => colour_picker.foreground,
 		:prompt => prompter.prompt 
 	}
 end
-

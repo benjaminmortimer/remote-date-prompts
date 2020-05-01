@@ -140,6 +140,7 @@ get '/prompt' do
 end
 
 get '/question' do 
+	colour_picker.new_pair
 	erb :question, :locals => {
 		:background_colour => colour_picker.background,
 		:question => questions.sample,

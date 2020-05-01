@@ -91,7 +91,9 @@ questions = [
 	"Beach or mountains?",
 	"What's your favourite website?",
 	"Have you ever...?",
-	"When was the first time you...?"
+	"When was the first time you...?",
+	"Would you go to bed with me?",
+	"Have you come far?"
 ]
 
 class Prompter

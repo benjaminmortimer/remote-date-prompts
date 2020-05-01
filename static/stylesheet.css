@@ -2,11 +2,6 @@ body {
 	font-family: sans-serif;
 }
 
-.prompt {
-	font-size: 70px;
-	margin: 75px;
-}
-
 .prompt-button {
 	border: 3px solid black;
 	display: inline-block;
@@ -18,4 +13,22 @@ body {
 :visited {
 	color: inherit;
 	text-decoration: none;
+}
+
+@media (min-width: 100px) {
+
+.prompt {
+	font-size: 50px;
+	margin: 30px;
+}
+
+}
+
+@media (min-width: 800px) {
+
+.prompt {
+	font-size: 70px;
+	margin: 75px;
+}
+
 }

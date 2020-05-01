@@ -1,0 +1,21 @@
+body {
+	font-family: sans-serif;
+}
+
+.prompt {
+	font-size: 70px;
+	margin: 75px;
+}
+
+.prompt-button {
+	border: 3px solid black;
+	display: inline-block;
+	font-size: 24px;
+	padding: 12px;
+	text-decoration: none;
+}
+
+:visited {
+	color: inherit;
+	text-decoration: none;
+}

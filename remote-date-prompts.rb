@@ -83,6 +83,11 @@ endings = [
 	"in an ambiguous way"
 ]
 
+questions = [
+	"How are you?",
+	"Why?"
+]
+
 class Prompter
 	def initialize(verbs, nouns, endings)
 		@verbs = verbs
@@ -131,5 +136,13 @@ get '/prompt' do
 		:background_colour => colour_picker.background,
 		:text_colour => colour_picker.foreground,
 		:prompt => prompter.prompt 
+	}
+end
+
+get '/question' do 
+	erb :question, :locals => {
+		:background_colour => colour_picker.background,
+		:question => questions.sample,
+		:text_colour => colour_picker.foreground,
 	}
 end

@@ -69,7 +69,10 @@ colour_picker = ColourPicker.new(colour_pairs)
 prompter = Prompter.new(verbs, nouns, endings)
 
 get '/' do
-	erb :index
+	erb :index, :locals => {
+		:background_colour => colour_picker.background,
+		:text_colour => colour_picker.foreground,
+	}
 end
 
 get '/prompt' do 

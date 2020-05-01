@@ -85,7 +85,13 @@ endings = [
 
 questions = [
 	"How are you?",
-	"Why?"
+	"Why?",
+	"Are you a person or dog cat?",
+	"Are you a person or cat dog?",
+	"Beach or mountains?",
+	"What's your favourite website?",
+	"Have you ever...?",
+	"When was the first time you...?"
 ]
 
 class Prompter

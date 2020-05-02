@@ -58,7 +58,7 @@ nouns = [
 	"skin care routine",
 	"your favourite outfit",
 	"lipstick",
-	"someone else's business",
+	"someone else’s business",
 	"the nearest ornament"
 ]
 
@@ -90,7 +90,7 @@ endings = [
 
 questions = [
 	"How are you?",
-	"What's your favourite website?",
+	"What’s your favourite website?",
 	"Would you go to bed with me?",
 ]
 

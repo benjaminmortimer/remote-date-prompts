@@ -22,6 +22,10 @@ p {
 	text-decoration: none;
 }
 
+.acknowledgement {
+	margin-top: 100px;
+}
+
 :visited {
 	color: inherit;
 	text-decoration: none;

@@ -6,6 +6,12 @@ set :public_folder, "static"
 set :views, "views"
 
 colour_pairs = [
+	{"background_colour" => "black", "text_colour" => "white"},
+	{"background_colour" => "white", "text_colour" => "black"},
+	{"background_colour" => "purple", "text_colour" => "white"},
+	{"background_colour" => "red", "text_colour" => "white"},
+	{"background_colour" => "orange", "text_colour" => "white"},
+	{"background_colour" => "gold", "text_colour" => "black"},
 	{"background_colour" => "darkblue", "text_colour" => "white"},
 	{"background_colour" => "hotpink", "text_colour" => "white"},
 	{"background_colour" => "lightblue", "text_colour" => "black"},

@@ -26,7 +26,6 @@ verbs = [
 	"google",
 	"float",
 	"tease",
-	"go",
 	"put",
 	"imagine",
 	"remove"
@@ -42,9 +41,9 @@ nouns = [
 	"politics",
 	"previous sexual experiences",
 	"sourdough",
-	"pearl necklace",
-	"life insurance",
-	"booze",
+	"their pearl necklace",
+	"your life insurance",
+	"this booze",
 	"having a drink",
 	"banter",
 	"lingerie",
@@ -85,15 +84,8 @@ endings = [
 
 questions = [
 	"How are you?",
-	"Why?",
-	"Are you a person or dog cat?",
-	"Are you a person or cat dog?",
-	"Beach or mountains?",
 	"What's your favourite website?",
-	"Have you ever...?",
-	"When was the first time you...?",
 	"Would you go to bed with me?",
-	"Have you come far?"
 ]
 
 class Prompter
